@@ -8,8 +8,9 @@
 
 .navbar{
     
-    background: #131313;
-    height: 80px;
+    background: rgb(255,103,1);
+    background: linear-gradient(90deg, rgba(255,103,1,1) 17%, rgba(254,168,47,1) 47%, rgba(255,194,136,1) 73%);
+    height: 60px;
     display: flex;
     justify-content: Center;
     align-items: center;
@@ -66,7 +67,7 @@
 }
 
 .navbar__links{
-    color: #fff;
+    color: rgb(5, 5, 5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,13 +105,13 @@
     border-radius: 4px;
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
-    background: linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
+    Background: linear-gradient(90deg, rgba(255,103,1,1) 17%, rgba(254,168,47,1) 47%, rgba(255,194,136,1) 73%);
     color: #fff;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #9518fc;
+    color:#FF6701 ;
     transition: all 0.3s ease;
 }
 
@@ -210,3 +211,92 @@
     }
 
 }  
+/*Hero Section*/
+
+.hero{
+    background: #000000;
+    background: linear-gradient(to right, #161616,#000000);
+    padding: 20px;
+}
+
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+    z-index: 999;
+}
+ 
+.hero__heading{
+    animation: myMove 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes myMove {
+    from {left: 50%;}
+    to {left:100%;}
+}
+
+.hero video{
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+        opacity: ;
+}
+
+.hero__heading{
+    font-size: 100px;
+    margin-bottom:24px;
+    color: #fff;
+    z-index: 2;
+}
+
+.hero__heading span{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    z-index: 3;
+}
+
+.hero__description{
+    width:100%;
+    font-size: 40px;
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    z-index: 1;
+}
+
+.highlight{
+    border-bottom: 4px solid rgb(132,0,255);
+}
+
+@media screen and (max-width:768px){
+    .hero__heading{
+        font-size: 60px;
+    }
+    .hero__description{
+        font-size: 40;
+    }    
+}
