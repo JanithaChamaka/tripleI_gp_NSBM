@@ -35,55 +35,38 @@ nav{
 		transition: 0.5s;
 	}
 	
-
-
-
-	.curved{
+	.banner {
 		width: 100%;
-		height: 100vh;
-		position: relative;
-		padding: 50px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		height: 500px;
+		position:;
+		top: 50px;
+		background-image:url("images/pr.jpg");
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center;
 	}
-	.curved{
-		content:-- ;
-		position: absolute;
-		top: 60px;
-		left: 0;
-		width: 90%;
-		height: 50%;
-		background:#0c4250;
+	.content h1{
+		padding-top: 8%;
+			font-size: 70px;
+			font-family: poppins;
+			color: white;
+		}
+		
+		
+
+
 	
-		z-index: -1;
-		border-radius: 0 0 50% 50%/0 0 100% 100%;
-		transform: scaleX(1.5);
-	}
-	.curved .content {
-		width: 900px;
-		color: white;
-		text-align:20px ;
-	}
-	.curved .content h1{
-		margin-bottom: 1rem;
-		font-size: 4rem;
-	}
-	.curved .content p{
-		margin-bottom: 1rem;
-		font-size: 1rem;
-	}
 	
 	body{
-	background:#b2cacf;
+	background:#3AAFA9;
 	
 	}
 	.container{
 		position:relative;
 		width:1100px;
-		display:-ms-inline-flexbox;
-		justify-content:center ;
-		align-items:center;
+		display:flex;
+		justify-content:left ;
+		align-items:left;
 		flex-wrap: wrap;
 		padding:80px;
 		float: right;
