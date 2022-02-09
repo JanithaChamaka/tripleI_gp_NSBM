@@ -1,33 +1,31 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
-body{
-    font-family: montserrat;
+.cards{
+    width: 26.5%;
+    background-color: lightcoral;
 }
-h1{
-    color:black;
-    font-weight: bold;
-    font-size: 40px;
-
-}
-h3{
-    color: orangered;
-    font-size: 30px;
-}
-p{
-    border:3px solid black;
-    font-size: 25pt;
-    
+image img{
+    width: 20%;
+    float: none;
     
 }
-img{
-    border: 1px solid grey;
-    margin: 10px;
-    width: 150px;
-    height: 100px;
+.para{
+    text-align: center;
 }
-
+.title{
+    text-align: center;
+    color: white;
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
