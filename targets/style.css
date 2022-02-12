@@ -2,6 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
+.banner{
+    width: 100%;
+    height: 500px;
+    top: 50px;
+    background-image: url("pexels-kevin-malik-8763241.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.content h1{
+    padding-top: 10%;
+    font-size: 70px;
+    font-family: poppins;
+    color:whitesmoke;
+    text-align: left;
+}
+
 body{
     font-family: Arial;
     text-align: center;
