@@ -22,11 +22,11 @@
     width:55%;
     }
 
-.image-section{
+.video-section{
     float:right;
     width:40%;
 }
-.image-section img{
+.video-section video{
     width:100%;
     height:auto;
 }
