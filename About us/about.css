@@ -70,6 +70,9 @@ margin-top:30px;
 .text.show-more .moreText{
     display:inline;
 }
+.text.show-more .dots{
+    display:none;
+}
 .content-section .social{
     margin: 40px 40px;
 }
