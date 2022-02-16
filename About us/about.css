@@ -72,6 +72,7 @@ nav{
 }
 #more{
     display:none;
+    font-family:sans-serif;
 }
 button{
     background-color:#3d3d3d;
@@ -133,12 +134,11 @@ button:hover{
         text-align: center;
         font-size:19px;
     }
-    .button {
+    button{
         text-align:center;
+        padding:9px 30px;
         }
-        .button a{
-padding:9px 30px;
-}
+    
 .content-selection .social{
     text-align: center;
 }
