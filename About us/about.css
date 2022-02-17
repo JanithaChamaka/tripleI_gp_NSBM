@@ -10,7 +10,6 @@ nav{
 	height: 60px;
 	background-color:orange;
 }
-
 	nav ul{
 		width:auto;
 		float:right;
@@ -24,7 +23,6 @@ nav{
 		text-align: center;
 		color:white;
 		text-decoration: none;
-		font-family: ;
 		font-size: 1.1vw;
 	}
 	a:hover{
@@ -72,16 +70,11 @@ nav{
     font-size:18px;
     line-height:1.5;
 }
-.text{
-    font-size:18px;
-}
-.moreText{
+#more{
     display:none;
+    font-family:sans-serif;
 }
-.content-section .content .button {
-margin-top:30px;
-}
-.content-section .content .button a{
+button{
     background-color:#3d3d3d;
     padding:12px 40px;
     text-decoration:none;
@@ -89,16 +82,15 @@ margin-top:30px;
     color:#fff;
     font-size:25px;
     letter-spacing:1.5px;
+    margin-top:30px;
 }
-.content-section .content .button a:hover{
+button:hover{
     background-color:#a52a2a;
     color:#fff;
 }
-.text.show-more .moreText{
-    display:inline;
-}
-.text.show-more .dots{
-    display:none;
+
+.content-section .social{
+    margin: 40px 40px;
 }
 .content-section .social{
     margin: 40px 40px;
@@ -142,12 +134,11 @@ margin-top:30px;
         text-align: center;
         font-size:19px;
     }
-    .content-section .content .button {
+    button{
         text-align:center;
+        padding:9px 30px;
         }
-        .content-section .content .button a{
-padding:9px 30px;
-}
+    
 .content-selection .social{
     text-align: center;
 }
