@@ -1,0 +1,123 @@
+*{
+	margin:0 ;
+	padding:0 ;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+body,html{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background-color:orange;
+}
+
+	nav ul{
+		width:auto;
+		float:right;
+		margin-top:8px;
+	}
+	li{
+		display: inline-block;
+		padding: 15px 30px;
+	}
+	a{
+		text-align: center;
+		color:white;
+		text-decoration: none;
+		font-family: ;
+		font-size: 1.1vw;
+	}
+	a:hover{
+		color:black;
+		transition: 0.5s;
+	}
+	
+	.banner {
+		width: 100%;
+		height: 500px;
+		position:;
+		top: 50px;
+		background-image:url("images/prs.jpg");
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+	}
+	.content h1{
+		padding-top: 10%;
+			font-size: 70px;
+			font-family: poppins;
+			color:white;
+			position:absolute;
+			top: 100px;
+			left: 20px;
+		}
+
+	/*.img-1{
+		width: 100%;
+		height: 500px;
+		background-image: url(images/1.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		position: relative;
+		top: 100px;
+	}*/
+	.img-1 {
+		padding: 25px 25px 25px 25px;
+		width: 628px;
+		height: 605px;
+		position:relative;
+		top: 550px;
+		background-image:url("images/1.png");
+		background-size: cover;
+	}
+
+	.img-2 {
+		padding: 25px 25px 25px 25px;
+		width: 654px;
+		height: 311px;
+		position:relative;
+		top: 550px;
+		background-image:url("images/2.png");
+		background-size: cover;
+	}
+
+	.img-3 {
+		padding: 25px 25px 25px 25px;
+		width: 488px;
+		height: 391px;
+		position:relative;
+		top: 550px;
+		background-image:url("images/3.png");
+		background-size: cover;
+	}
+
+	.img-4 {
+		padding: 25px 25px 25px 25px;
+		width: 427px;
+		height: 498px;
+		position:relative;
+		top: 550px;
+		background-image:url("images/4.png");
+		background-size: cover;
+	}
+
+	.img-5 {
+		padding: 25px 25px 25px 25px;
+		width: 1083px;
+		height: 276px;
+		position:relative;
+		top: 550px;
+		background-image:url("images/5.png");
+		background-size: cover;
+	}
+
+
+	body{
+	background:rgb(255, 255, 255);
+}
+
