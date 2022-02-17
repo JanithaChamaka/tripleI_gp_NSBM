@@ -21,7 +21,6 @@ nav{
 		text-align: center;
 		color:white;
 		text-decoration: none;
-		font-family: ;
 		font-size: 1.1vw;
 	}
 	a:hover{
@@ -33,7 +32,7 @@ nav{
     width: 100%;
     height: 500px;
     top: 50px;
-    background-image: url("pexels-kevin-malik-8763241.jpg");
+    background-image: url("pexels-marc-695266.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -55,6 +54,7 @@ body{
     
 .cards{
     width: 20%;
+    height: 20%;
     display: inline-block;
     background-color: lightsalmon;
     border-radius: 5px;
@@ -68,8 +68,10 @@ image img{
     
     border-radius: 200px;
     text-align: center;
-    
+   
+  
 }
+
 .para{
     text-align: center;
 }
@@ -79,21 +81,16 @@ image img{
     padding: 5px;
 }
 .des{
-    text-align: center;
+    text-align:center;
     padding: 4px;
 }
-button{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
+.indi{
+    text-align: center;
+    color:darkslateblue;
 }
-button:hover{
-      background-color: black;
-      color: white;
-      transition: .5s;
+.sen{
+    text-align: center;
+    color: black;
 
 }
+
