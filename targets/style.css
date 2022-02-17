@@ -1,33 +1,99 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
+nav{
+	width: 100%;
+	height: 60px;
+	background-color:orange;
+}
+
+	nav ul{
+		width:auto;
+		float:right;
+		margin-top:10px;
+	}
+    li{
+		display: inline-block;
+		padding: 15px 30px;
+	}
+	a{
+		text-align: center;
+		color:white;
+		text-decoration: none;
+		font-family: ;
+		font-size: 1.1vw;
+	}
+	a:hover{
+		color:black;
+		transition: 0.5s;
+	}
+	
+.banner{
+    width: 100%;
+    height: 500px;
+    top: 50px;
+    background-image: url("pexels-kevin-malik-8763241.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.content h1{
+    padding-top: 10%;
+    font-size: 70px;
+    font-family: poppins;
+    color:whitesmoke;
+    text-align: left;
+}
+
 body{
-    font-family: montserrat;
-}
-h1{
-    color:black;
-    font-weight: bold;
-    font-size: 40px;
-
-}
-h3{
-    color: orangered;
-    font-size: 30px;
-}
-p{
-    border:3px solid black;
-    font-size: 25pt;
-    
-    
-}
-img{
-    border: 1px solid grey;
-    margin: 10px;
-    width: 150px;
-    height: 100px;
+    font-family: Arial;
+    text-align: center;
 }
 
+
+    
+.cards{
+    width: 20%;
+    display: inline-block;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    margin: 40px;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+image img{
+
+    
+    border-radius: 200px;
+    text-align: center;
+    
+}
+.para{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+    padding: 4px;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+      background-color: black;
+      color: white;
+      transition: .5s;
+
+}
