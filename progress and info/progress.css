@@ -66,11 +66,11 @@ nav{
 		position:relative;
 		width:1100px;
 		display:flex;
-		justify-content:left ;
+		justify-content:right;
 		align-items:left;
 		flex-wrap: wrap;
-		padding:80px;
-		float: right;
+		padding:50px;
+		float:right;
 	}
 	.container .card{
 		position: relative;
@@ -82,7 +82,7 @@ nav{
 	display:flex;
 	flex-direction: column;
 	
-	transition: 0.3s ease ease-in-out;
+	transition: 0.1s ease ease-in-out;
 	}
 	.container .card:hover{
 	height:420px;
@@ -117,4 +117,16 @@ nav{
 		opacity: 1;
 		margin-top: -20px;
 		transition-delay: 0.3s;
+	}
+	@media screen and (max-width:600px)
+	{
+		.container .card{
+			position: relative;
+			max-width:400px;
+			height:215px;
+		background:rgb(252, 229, 187);
+		margin: 30px 10px;
+		padding:20px 15px;
+		display:inline;
+		flex-direction: column;
 	}
