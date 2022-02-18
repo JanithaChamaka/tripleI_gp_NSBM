@@ -329,3 +329,24 @@
 
     color: #fd1d1d;  
 }
+
+
+.grid_wrapper{
+    margin-top: 1%;
+    width: 99%;
+    display:grid;
+    grid-template-columns: 40% 25% 35%;
+    grid-gap: 1em;
+    grid-auto-rows: 100px;
+
+}
+
+.grid_wrapper div{
+    background-color: #833ab4;
+    padding:1em;
+}
+
+.grid_wrapper div:nth-child(odd){
+    background-color: #fd1d1d;
+}
+
