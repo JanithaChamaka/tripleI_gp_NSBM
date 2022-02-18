@@ -320,4 +320,18 @@
 .grid_wrapper div:nth-child(odd){
     background-color: #fd1d1d;
 }
+.box1{
+    grid-row: 1/5;
+}
+
+.box2{
+    grid-row: 1/4;
+}
+
+.box6{
+    grid-row: 3/5;
+}
+.highlight{
+    border-bottom: 4px solid rgb(132,0,255);
+}
 
