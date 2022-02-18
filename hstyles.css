@@ -2,12 +2,14 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;       
+    font-family:Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
 
 .navbar{
-    background-color:orange;
+    
+    background: rgb(255,103,1);
+    background: linear-gradient(90deg, rgba(255,103,1,1) 17%, rgba(254,168,47,1) 47%, rgba(255,194,136,1) 73%);
     height: 60px;
     display: flex;
     justify-content: Center;
@@ -28,8 +30,6 @@
     margin: 0 auto;
     padding: 0 50px;
 }
-
-
 
 #navbar__logo{
     background: #ED213A;  /* fallback for old browsers */
@@ -67,7 +67,7 @@
 }
 
 .navbar__links{
-    color: #fff;
+    color: rgb(5, 5, 5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,8 +105,7 @@
     border-radius: 4px;
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
-    background: rgb(26,55,77);
-   
+    Background: linear-gradient(90deg, rgba(255,103,1,1) 17%, rgba(254,168,47,1) 47%, rgba(255,194,136,1) 73%);
     color: #fff;
     transition: all 0.3s ease;
 }
@@ -216,7 +215,6 @@
 
 .hero{
     background: #000000;
-    opacity: 0.9;
     background: linear-gradient(to right, #161616,#000000);
     padding: 20px;
 }
@@ -227,10 +225,10 @@
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     height: 90%;
     text-align: center;
-    padding: 100px 200px;
+    padding: 30px;
     z-index: 999;
 }
  
@@ -252,11 +250,9 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        z-index: -999;
-        object-fit: cover;
+        z-index: 0;
+        opacity: ;
 }
-
-
 
 .hero__heading{
     font-size: 100px;
@@ -265,69 +261,44 @@
     z-index: 2;
 }
 
-.hero__heading p{
-    font-family: 'Times New Roman', Times, serif;
-    color: orange;  
-    z-index: 100;
-}
-
-
-.I{
-    font-family: 'Times New Roman', Times, serif;
-    color: orange; 
+.hero__heading span{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    z-index: 3;
 }
 
 .hero__description{
-    justify-content: center;
-    display: flex;
-    box-sizing: content-box;
-    height: 70px;
-    align-content: left;
     width:100%;
     font-size: 40px;
-    color: #FFFFFF;
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
     z-index: 1;
-    
 }
 
-.words{
-    overflow: hidden;
+.highlight{
+    border-bottom: 4px solid rgb(132,0,255);
 }
 
-.words span{
-    display: block;
-    height: 100px;
-    padding:10px;
-    animation: spin_words 6s infinite;
-    text-align: left;
-}
-
-@keyframes spin_words{
-    10%{
-        transform: translateY(-112%);
+@media screen and (max-width:768px){
+    .hero__heading{
+        font-size: 60px;
     }
-    35%{
-        transform: translateY(-100%);
-    }
-    50%{
-        transform: translateY(-212%);
-    }
-    65%{
-        transform: translateY(-200%);
-    }
-    80%{
-        transform: translateY(-312%);
-    }
-    100%{
-        transform: translateY(-300%);
-    }
-
-}
-
-.hero__description p{
-    font-family: 'Times New Roman', Times, serif;
-
-    color: #fd1d1d;  
+    .hero__description{
+        font-size: 40;
+    }    
 }
 
 
