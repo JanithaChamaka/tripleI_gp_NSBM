@@ -385,4 +385,19 @@
     margin-bottom: 16px;
     color: #fff;
 }
+.footer__link--items a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3s ease-out;
+}
+.footer__link--items a:hover{
+    color: red;
+    transition: 0.3s ease-out;    
+}
+
+.social__icon--link{
+    color: #fff;
+    font-size: 24px;
+}
 
