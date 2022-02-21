@@ -5,6 +5,7 @@
     opacity: 0.9;
     background: linear-gradient(to right, #161616,#000000);
     padding: 20px;
+    background-blend-mode: darken;
 }
 
 .hero__container{
@@ -40,6 +41,7 @@
         object-fit: cover;
         z-index: -999;
         object-fit: cover;
+        
 }
 
 
@@ -58,9 +60,10 @@
 }
 
 
-.I{
+.I {
     font-family: 'Times New Roman', Times, serif;
-    color: orange; 
+    color: orange;
+     
 }
 
 .hero__description{
