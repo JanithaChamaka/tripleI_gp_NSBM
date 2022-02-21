@@ -1,11 +1,11 @@
 /*Hero Section*/
 
 .hero{
-    background: #000000;
+    background: white;
     opacity: 0.9;
     background: linear-gradient(to right, #161616,#000000);
     padding: 20px;
-    background-blend-mode: darken;
+   
 }
 
 .hero__container{
