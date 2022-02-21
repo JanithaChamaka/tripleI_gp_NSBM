@@ -21,7 +21,6 @@ nav{
 		text-align: center;
 		color:white;
 		text-decoration: none;
-		font-family: ;
 		font-size: 1.1vw;
 	}
 	a:hover{
@@ -33,7 +32,7 @@ nav{
     width: 100%;
     height: 500px;
     top: 50px;
-    background-image: url("pexels-kevin-malik-8763241.jpg");
+    background-image: url("pexels-marc-695266.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -55,6 +54,7 @@ body{
     
 .cards{
     width: 20%;
+    height: 20%;
     display: inline-block;
     background-color: lightsalmon;
     border-radius: 5px;
@@ -68,8 +68,10 @@ image img{
     
     border-radius: 200px;
     text-align: center;
-    
+   
+  
 }
+
 .para{
     text-align: center;
 }
@@ -79,21 +81,105 @@ image img{
     padding: 5px;
 }
 .des{
-    text-align: center;
+    text-align:center;
     padding: 4px;
 }
-button{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
+.indi{
+    text-align: center;
+    color:darkslateblue;
 }
-button:hover{
-      background-color: black;
-      color: white;
-      transition: .5s;
+.sen{
+    text-align: center;
+    color: black;
 
 }
+.footer__container{
+    background-color: #131313;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer__logo{
+    color: #fff;
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer__links{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.footer__link--wrapper{
+    display: flex;
+}
+
+.footer__link--items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.footer__link--items h2{
+    margin-bottom: 16px;
+    color: #fff;
+}
+.footer__link--items a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3s ease-out;
+}
+.footer__link--items a:hover{
+    color: red;
+    transition: 0.3s ease-out;    
+}
+
+.social__icon--link{
+    color: #fff;
+    font-size: 24px;
+}
+.social__media{
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.social__media--wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.social__icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.website__rights{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
