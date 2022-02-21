@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Roboto:wght@300;400&display=swap');
+
 *{
 	margin:0 ;
 	padding:0 ;
@@ -27,8 +29,7 @@ nav{
 		text-align: center;
 		color:white;
 		text-decoration: none;
-		font-family: ;
-		font-size: 1.1vw;
+	    font-size: 1.1vw;
 	}
 	a:hover{
 		color:black;
@@ -38,8 +39,7 @@ nav{
 	.banner {
 		width: 100%;
 		height: 500px;
-		position:;
-		top: 50px;
+	    top: 50px;
 		background-image:url("images/prs.jpg");
 		-webkit-background-size: cover;
 		background-size: cover;
@@ -54,6 +54,96 @@ nav{
 		}
 		
 		
+		
+		.box-area{
+		position: absolute;
+		top:0;
+		left:80px;
+		width:50%;
+		height:100%;
+		overflow:hidden;
+		}
+      .box-area li{
+position:absolute;
+display:block;
+list-style:none;
+width:25px;
+height:25px;
+background:orangered;
+animation:animate 4s linear infinite;
+bottom: -150px;
+
+	  }
+
+.box-area li:nth-child(1){
+	left: 86%;
+	width:80px;
+	height:80px;
+	animation-delay: 1.5s;
+	animation-duration:0s ;
+
+}
+.box-area li:nth-child(2){
+	left: 12%;
+	width:30px;
+	height:30px;
+	animation-delay: 1.5s;
+	animation-duration:10s ;
+
+}
+
+.box-area li:nth-child(3){
+	left: 70%;
+	width: 100px;
+	height:100px;
+	animation-delay: 5.5s;
+	
+
+}
+.box-area li:nth-child(4){
+	left: 42%;
+	width: 150px;
+	height:150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+	
+
+}
+.box-area li:nth-child(5){
+	left: 65%;
+	width: 40px;
+	height:40px;
+	animation-delay: 0s;
+	
+	
+
+}
+.box-area li:nth-child(6){
+	left: 15%;
+	width: 110px;
+	height:110px;
+	animation-delay: 3.5s;
+	
+	
+	}
+	@keyframes animate{
+		0%{
+			transform: translateY(0) rotate(0deg);
+			opacity: 1;
+		}
+		100%{
+			transform: translateY(-800px) rotate(360deg);
+			opacity: 0;
+		}
+	}
+
+	.header h2{
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		padding-left: 350px;
+		
+	}
 
 
 	
@@ -62,15 +152,17 @@ nav{
 	background:white;
 	
 	}
+	
+	
 	.container{
-		position:relative;
-		width:1100px;
+		position:absolute;
+		width:1500px;
 		display:flex;
-		justify-content:right;
-		align-items:left;
+		justify-content:center;
+		align-items:center;
 		flex-wrap: wrap;
 		padding:50px;
-		float:right;
+		
 	}
 	.container .card{
 		position: relative;
@@ -83,6 +175,8 @@ nav{
 	flex-direction: column;
 	
 	transition: 0.1s ease ease-in-out;
+	
+	
 	}
 	.container .card:hover{
 	height:420px;
@@ -118,15 +212,93 @@ nav{
 		margin-top: -20px;
 		transition-delay: 0.3s;
 	}
-	@media screen and (max-width:600px)
-	{
-		.container .card{
+	@media screen and (max-width: 600px){
+	
+		body{
+			margin:0;
+			padding: 0;
+		}
+		.header h2{
+			position:relative;
+			font-size: 4vw;
+			padding-left:10px;
+		}
+		nav{
+			width: 100%;
+			height: 50px;
+			background-color:orange;
+		}
+		li{
+			display: inline-block;
+			padding: 20px 15px;
+		}
+		a{
+		text-align: left;
+			color:white;
+			text-decoration: none;
+			font-size: 1.4vw;
+		}
+		.banner {
+			width:100%;
+			height: 500px;
+			top: auto;
+			background-image:url("images/prs.jpg");
+			
+			background-size: cover;
+			background-position: center center;
+		}
+		.content h1{
+			padding-top: 10%;
+				font-size: 30px;
+				font-family: poppins;
+				color:whitesmoke;
+				
+			}
+		
+		.container{
+			position:relative;
+			width:100%;
+			
+			justify-content:right;
+			align-items:flex-end;
+			flex-wrap: wrap;
+			padding:50px;
+			float:right;
+			flex-direction:column-reverse;
+		   }
+		   .container .card{
 			position: relative;
-			max-width:400px;
-			height:215px;
+			max-width:100%;
+			height:150px;
 		background:rgb(252, 229, 187);
-		margin: 30px 10px;
+		margin: 20px 10px;
 		padding:20px 15px;
-		display:inline;
+		display:flex;
 		flex-direction: column;
-	}
+		size:20px;
+		transition: 0.1s ease ease-in-out;
+		}	
+		   .container .card .imgB img{
+			max-width: 60%;
+		
+			size: 20px;
+		}
+		.container .card .des{
+		position: relative;
+		margin-top: -40px;
+	
+		text-align: center;
+		color:black;
+		visibility: hidden;
+		opacity: 0;
+		transition: 0.3s ease;
+		font-size:3vw;
+		}
+		.container .card:hover .des{
+			visibility: visible;
+			opacity: 1;
+			margin-top: -180px;
+			transition-delay: 0.6s;
+		}
+		
+			}
