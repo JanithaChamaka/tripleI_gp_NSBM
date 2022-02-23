@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tripleI</title>
     <link rel="stylesheet" href="hstyles.css">
+    
     <script src="https://kit.fontawesome.com/469a060295.js" crossorigin="anonymous"></script>
 </head>
 
 <nav class="navbar">
     <ul class="navbar__container" >
+        
         <ul class="navbar__menu">
             <li class="navbar__item">
                 <a href="Home.html" class="navbar__links" id="home-page">Home</a>
@@ -58,6 +60,37 @@
               </div>
           </section> 
       
+          <div class="content">
+   
+            <h2>Sustainable Development Goal 9</h2>
+            <p>Sustainable Development Goal 9 is about "industry, innovation and infrastructure" and is one of the 17 Sustainable Development Goals.
+               SDG 9 has eight targets, and progress is measured by twelve indicators. SDG 9 aims to build resilient infrastructure, promote sustaintable industrialization and foster innovation.<sapn id="dots">..</sapn><span id="more">The first five targets are "outcome targets": Develop sustainable, resilient and inclusive infrastructures; promote inclusive and sustainable industrialization; increase access to financial services and markets; upgrade all industries and infrastructures for sustainability; enhance research and upgrade industrial technologies. The remaining three targets are "means of achieving" targets: Facilitate sustainable infrastructure development for developing countries; support domestic technology development and industrial diversification; universal access to information and communications technology.<br><br>
+            Mission Statement : "Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation" </span></p>
+              <button type="button" id="read" onclick="read()">Read More</button>
+              <script type="text/javascript">
+                var i=0;
+                function read(){
+                    if(!i){
+                        document.getElementById("more").style.
+                        display ="inline";
+                        document.getElementById("dots").style.
+                        display ="none";
+                        document.getElementById("read").innerHTML="Read Less";
+                        i=1;
+                    }
+               else{
+                  document.getElementById("more").style.
+                        display ="none";
+                        document.getElementById("dots").style.
+                        display ="inline";
+                        document.getElementById("read").innerHTML="Read More";
+                        i=0;
+                    }
+        
+               } 
+            </script>
+               </div>
+  
          
          
          
