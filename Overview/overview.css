@@ -54,11 +54,11 @@ nav{
 		position:absolute;
 		top: 60px;
 		left: 20px;
-		background: linear-gradient(90deg,orange, #fff, orange);
-		background-size: 90%;
-		animation: animate 3s linear infinite;
+		background: linear-gradient(90deg,rgb(255, 255, 255), rgb(159, 233, 110), rgb(255, 255, 255));
+		background-size: 50%;
+		animation: animate 80s linear infinite;
 		-webkit-background-clip: text;
-		-webkit-text-fill-color: rgba(255, 255, 255, 0);
+		-webkit-text-fill-color: rgba(0, 0, 0, 0);
 	}
 		  
 		  @keyframes animate {
