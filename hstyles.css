@@ -1,7 +1,90 @@
+
+
+.navbar{
+    
+    background: orange;
+    height: 60px;
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding-left: 25px;
+    transition: 0.35s ease;
+}
+#navbar__logo:hover{
+    transform: scale(1.075);
+    transition: 0.35s ease;
+}
+
+.navbar__menu{
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+    position:relative;
+    left: 50%;
+}
+
+
+.navbar__item{
+    justify-content: space-around;
+    height: 80px;
+}
+
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+
+.navbar__links:hover {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+
 /*Hero Section*/
 
 .hero{
-    background: white;
+    background: black;
     opacity: 0.9;
     background: linear-gradient(to right, #161616,#000000);
     padding: 20px;
@@ -53,17 +136,30 @@
     z-index: 2;
 }
 
-.hero__heading p{
+.hero__heading {
     font-family: 'Times New Roman', Times, serif;
-    color: orange;  
+    color:#FF3300;
     z-index: 100;
+    font-size: 900%;
+    position: absolute;
+   }
+ 
+.hero__heading span{
+    color: #000000;
+}
+.discription {
+    font-size: 150%;
+    color: orange;
+    position: absolute;
+    top: 50%;
+    bottom: 45%;
 }
 
-
-.I {
+.I_class{
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top:10px;
     color: orange;
-     
 }
 
 .hero__description{
@@ -76,6 +172,9 @@
     font-size: 40px;
     color: #FFFFFF;
     z-index: 1;
+    position: absolute;
+    top: 60%;
+    bottom: 40%;
     
 }
 
@@ -117,38 +216,59 @@
     font-family: 'Times New Roman', Times, serif;
 
     color: #fd1d1d;  
+}.content{
+    font-size: 170%;
+    justify-content: left;
+    float: left;
+}
+.disvideo{
+   
+    float: right;
+    
+    
 }
 
 .grid_wrapper{
     margin-top: 1%;
     width: 99%;
     display:grid;
-    grid-template-columns: 40% 25% 35%;
+    grid-template-columns: 34% 33% 33%;
     grid-gap: 1em;
     grid-auto-rows: 100px;
 
 }
-
-.grid_wrapper div{
-    background-color: #833ab4;
-    padding:1em;
+.box1 img{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
 }
-
-.grid_wrapper div:nth-child(odd){
-    background-color: #fd1d1d;
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+.box3 img{
+    width: 100%;
+    height: 100%;
 }
 
 .box1{
     grid-row: 1/5;
+    background-color:#1f415d;
+    
 }
 
 .box2{
-    grid-row: 1/4;
+    grid-row: 1/5;
+    background-color: #e26535;
+    
+}
+.box3{
+
+    grid-row: 1/5;
+    background-color: #e26535;
+    
 }
 
-.box6{
-    grid-row: 3/5;
-}
 .highlight{
     border-bottom: 4px solid rgb(132,0,255);
 }
