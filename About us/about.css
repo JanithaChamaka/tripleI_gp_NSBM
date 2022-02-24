@@ -107,6 +107,59 @@ button:hover{
     transition: 1s ease;
     transform:rotate(360deg);
 }
+.wrapper{
+    margin-top:60px;
+    text-align: center;
+}
+.wrapper h1{
+    font-family: 'Yatra One',cursive;
+    font-size: 48px;
+    color: #460246;
+    margin-bottom: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container .card{
+    width: 200px;
+    height: 310px;
+    margin: 2px;
+    background: #ddd;
+    padding: 40px 20px;
+    box-shadow: 0.5em 0.5em 1em #d2dcd2,
+               -0.4em -0.4em 1em #ffffff;
+                border-radius:8px;
+}
+.container .card .content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .card .content .imgBx{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.container .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .card .content .contentBx h3{
+    font-size: 15px;
+}
 .footer__container{
     background-color: #131313;
     padding: 5rem 0;
