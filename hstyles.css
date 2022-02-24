@@ -2,7 +2,7 @@
 
 .navbar{
     
-    background: black;
+    background: #171717;
     height: 60px;
     display: flex;
     justify-content: Center;
@@ -20,7 +20,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    margin: 0 auto;
+    margin:  auto;
     padding: 0 50px;
 }
 
@@ -170,7 +170,7 @@
     align-content: left;
     width:100%;
     font-size: 40px;
-    color: #FFFFFF;
+    color: black;
     z-index: 1;
     position: absolute;
     top: 60%;
@@ -223,6 +223,9 @@
     justify-content: left;
     float: left;
     
+}
+.content h2{
+    FO
 }
 .disvideo{
    
