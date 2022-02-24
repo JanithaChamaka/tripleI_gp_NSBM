@@ -1,11 +1,9 @@
-*{
-    font-family:'Times New Roman', Times, serif;
-}
+
 
 .navbar{
     
-    background: #131313;
-    height: 80px;
+    background: orange;
+    height: 60px;
     display: flex;
     justify-content: Center;
     align-items: center;
@@ -78,7 +76,7 @@
 
 
 .navbar__links:hover {
-    color: #9518fc;
+    color: black;
     transition: all 0.3s ease;
 }
 
@@ -140,15 +138,28 @@
 
 .hero__heading {
     font-family: 'Times New Roman', Times, serif;
-    color: orange;  
+    color:#FF3300;
     z-index: 100;
+    font-size: 900%;
+    position: absolute;
+   }
+ 
+.hero__heading span{
+    color: #000000;
 }
-
+.discription {
+    font-size: 150%;
+    color: orange;
+    position: absolute;
+    top: 50%;
+    bottom: 45%;
+}
 
 .I_class{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     top:10px;
+    color: orange;
 }
 
 .hero__description{
@@ -161,6 +172,9 @@
     font-size: 40px;
     color: #FFFFFF;
     z-index: 1;
+    position: absolute;
+    top: 60%;
+    bottom: 40%;
     
 }
 
@@ -202,13 +216,15 @@
     font-family: 'Times New Roman', Times, serif;
 
     color: #fd1d1d;  
+}.content{
+    font-size: large;
 }
 
 .grid_wrapper{
     margin-top: 1%;
     width: 99%;
     display:grid;
-    grid-template-columns: 40% 25% 35%;
+    grid-template-columns: 34% 33% 33%;
     grid-gap: 1em;
     grid-auto-rows: 100px;
 
@@ -222,29 +238,17 @@
 }
 
 .box2{
-    grid-row: 1/4;
+    grid-row: 1/5;
     background-color: #e26535;
     
 }
 .box3{
-    
+
+    grid-row: 1/5;
     background-color: #e26535;
     
 }
-.box4{
-    
-    background-color: #e26535;
-    
-}
-.box5{
-    
-    background-color: #e26535;
-    
-}
-.box6{
-    grid-row: 3/5;
-    background-color: #e26535;
-}
+
 .highlight{
     border-bottom: 4px solid rgb(132,0,255);
 }
