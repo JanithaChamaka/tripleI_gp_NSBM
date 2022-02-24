@@ -2,7 +2,7 @@
 
 .navbar{
     
-    background: orange;
+    background: black;
     height: 60px;
     display: flex;
     justify-content: Center;
@@ -64,7 +64,7 @@
 }
 
 .navbar__links{
-    color: #fff;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -76,7 +76,7 @@
 
 
 .navbar__links:hover {
-    color: black;
+    color: #FF3300;
     transition: all 0.3s ease;
 }
 
